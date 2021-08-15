@@ -1,0 +1,27 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    Example Action -->
+    <!--    <action intentName="Intent name (actions.intent.*)"> -->
+    <!--        <action-display -->
+    <!--            icon="@mipmap/..." -->
+    <!--            labelTemplate="@array/..." /> -->
+    <!--        <fulfillment urlTemplate="Action content URI or URL"> -->
+    <!--            <parameter-mapping -->
+    <!--                intentParameter="Parameter name in Intent URI" -->
+    <!--                urlParameter="Parameter name in URL" /> -->
+    <!--        </fulfillment> -->
+    <!--    </action> -->
+    <item
+        android:id="@+id/viewSatellite"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="View Satellite"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/toggleCenter"
+        android:checkable="true"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="Centre on My Location"
+        app:showAsAction="always"/>
+</menu>
